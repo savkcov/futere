@@ -31,7 +31,7 @@ abstract class View {
 			return $this->$name;
 		}
         else {
-			false;
+		return false;
 		}
 	}
 	//вызов метода
